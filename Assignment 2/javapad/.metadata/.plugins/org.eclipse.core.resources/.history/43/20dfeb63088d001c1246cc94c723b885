@@ -1,0 +1,20 @@
+
+public class RunJavaPad {
+
+	public static void main(String[] args) {
+		
+		new JavaPad();
+
+	}
+
+}
+
+/*VERY IMPORANT:
+
+First begin by clicking the SaveAs button so you create a new file other wise you will get an error when Saving since no file exists.
+To Load, first you have to open the file that you want, then load its content. Otherwise you will get an error since Java doesn't know
+what file to load since we have not specified anything yet.
+
+Those errors prove the logic behind this code and are not bugs in my code.
+
+*/
